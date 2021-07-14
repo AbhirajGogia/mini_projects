@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
+  align-items: center;
 }
 
 .app.clouds {
@@ -71,7 +72,7 @@ main {
 }
 
 .search-box .search-bar {
-  display: bock;
+  display: block;
   width: 100%;
   padding: 15px;
 
@@ -146,4 +147,28 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50,50,70,0.5);
   
+}
+
+.title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+.title-box {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 16px;
+  padding: 2rem 2rem;
+}
+
+.smaller-title {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(255,255,255,0.1);
 }

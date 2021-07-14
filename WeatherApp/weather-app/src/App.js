@@ -73,7 +73,7 @@ function App() {
               </div>
             </div>
           </div>
-        ) : ('')};
+        ) : ('')}
 
         {(typeof weather.timezone != 'undefined') ? (
         <div className ="clock">
@@ -82,7 +82,17 @@ function App() {
           
 
         </div>
-        ) : ('')};
+        ) : (
+          <div className="title-box">
+          <div className="title">Weather</div>
+          <div className="title">&</div>
+          <div className="title">Local Time</div>
+          <br></br>
+          <div className="smaller-title">By Raj Gogia</div>
+          </div>
+        
+        
+          )}
 
       </main>
     </div >
