@@ -1,0 +1,32 @@
+.btn {
+    background-color: #F0FFF1;
+    color: #5603AD;
+    border-radius: 5em;
+    margin: 1em;
+    padding: 0.5em 1em;
+    border-color: #C2F8CB;
+    
+}
+
+
+#addTodoInput{
+    width: 20em;
+    height: 2em;
+    font-size:1em;
+    border:solid 1px #ccc;
+    border-radius: 5em;
+    padding-left: 1em;
+}
+
+.addTodoContainer {
+    padding: 1em;
+    background-color: #8367C7;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}

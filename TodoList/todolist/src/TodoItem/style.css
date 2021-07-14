@@ -1,0 +1,27 @@
+
+
+.todoItem:hover {
+    color: #B3E9C7;
+    background-color: #8367C7;
+
+}
+
+.todoSlot{
+    margin: 2em 0px;
+    text-align: center;
+}
+
+.todoExists {
+    background-color: none;
+    padding: 0.5em;
+    font: sans-serif 100;
+    cursor: pointer;
+    color: #F0FFF1;
+    border: 1px solid;
+    border-radius: 1em;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #B3E9C7;
+}
