@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Clock from './Clock/clock.js'
 
 const api = {
-  key: '82ed618670327e7ebc93656f956eeb23',
+  key: '',
   base: 'https://api.openweathermap.org/data/2.5/'
 }
 
@@ -43,7 +43,7 @@ function App() {
 
 
   return (
-    <div className="app">
+    <div className={(typeof weather.main != "undefined") ? (`app ${weather.weather[0].main.toString().toLowerCase()}`) : "app"}>
       <main>
         <div className="search-box">
           <input
@@ -79,6 +79,7 @@ function App() {
         <div className ="clock">
 
           <Clock timezone={weather.timezone}/>
+          
 
         </div>
         ) : ('')};
@@ -89,3 +90,6 @@ function App() {
 }
 
 export default App;
+
+
+

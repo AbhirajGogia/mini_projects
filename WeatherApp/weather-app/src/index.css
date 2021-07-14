@@ -15,9 +15,48 @@ body {
   transition: 0.4s ease-out;
 }
 
-.app.night {
-  background-image: url('./assets/night.jpg')
+.app.clouds {
+  background-image: url('./assets/clouds.jpg')
 }
+.app.thunderstorm {
+  background-image: url('./assets/thunderstorm.jpg')
+}
+.app.drizzle {
+  background-image: url('./assets/drizzle.jpg')
+}
+.app.rain {
+  background-image: url('./assets/rain.jpg')
+}
+.app.mist {
+  background-image: url('./assets/mist.jpg')
+}
+.app.smoke {
+  background-image: url('./assets/smoke.jpg')
+}
+.app.haze {
+  background-image: url('./assets/haze.jpg')
+}
+.app.dust {
+  background-image: url('./assets/dust.jpg')
+}
+.app.fog {
+  background-image: url('./assets/fog.jpg')
+}
+.app.sand {
+  background-image: url('./assets/sand.jpg')
+}
+.app.ash {
+  background-image: url('./assets/ash.jpg')
+}
+.app.tornado {
+  background-image: url('./assets/tornado.jpg')
+}
+.app.clear {
+  background-image: url('./assets/clear.jpg')
+}
+
+/* // Main Codes:
+// Thunderstorm, Drizzle, Rain, Snow, Mist, Smoke, Haze, Dust, Fog, Sand, Ash, Squall, Tornado, Clear, Clouds */
 
 main {
   min-height: 100vh;
@@ -60,7 +99,8 @@ main {
   font-size: 32px;
   font-weight: 500;
   text-align: center;
-  text-shadow: 3px 3px rgba(50, 50,70,0.5)
+  text-shadow: 3px 3px rgba(50, 50,70,0.5);
+  margin-bottom: 10px;
 }
 
 .location-box .date {
@@ -101,5 +141,9 @@ main {
 
 .clock {
   text-align: center;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
   
 }
