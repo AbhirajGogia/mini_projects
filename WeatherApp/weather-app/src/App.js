@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Clock from './Clock/clock.js'
 
 const api = {
-  key: '',
+  key: 'bb485acca8ffaa50f02067f9430c5810',
   base: 'https://api.openweathermap.org/data/2.5/'
 }
 
